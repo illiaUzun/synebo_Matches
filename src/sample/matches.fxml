@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="37.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 50; -fx-font-style: italic;" text="Matches" textAlignment="CENTER" underline="true" wrappingWidth="216.990234375">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="factorialTextField" layoutX="71.0" layoutY="101.0" onAction="#onEnter" />
+      <Text layoutX="22.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 13; -fx-font-style: italic;" text="Please enter the number of squares:" textAlignment="CENTER" wrappingWidth="246.990234375">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="resultField" layoutX="71.0" layoutY="142.0" />
+      <Text layoutX="22.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 13;" text="The number of matches is:" textAlignment="CENTER" wrappingWidth="246.990234375">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
